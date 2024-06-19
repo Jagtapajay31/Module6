@@ -10,7 +10,4 @@ public class DisplayNumber {
 			 count++;
 		}
 	}
-	
-	test
-
 }
