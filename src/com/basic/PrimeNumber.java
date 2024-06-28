@@ -11,10 +11,12 @@ public class PrimeNumber {
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter Numer :");
 		int n = scanner.nextInt();
+        int n1 = 0;
+
 		
 		int count =  0;
-		for (int i = 1; i <= n; i++) {
-			if (n % 1==0) {
+		for (int i = 1; i <= n1; i++) {
+			if (n1 % 1==0) {
 				count++;
 			}
 		}

@@ -4,7 +4,7 @@ package com.basic;
  */
 public class Prime100 {
 	public static void main(String[] args) {
-		int i, number = 1, count, sum = 0;
+		int i, number = 0 , count, sum = 0;
 				
 				while(number <= 100)
 				{
