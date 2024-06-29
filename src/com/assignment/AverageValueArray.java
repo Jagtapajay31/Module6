@@ -1,4 +1,4 @@
-package com.basic;
+package com.assignment;
 /*
  *  WAP to calculate the average value of array elements.
  */

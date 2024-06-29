@@ -1,4 +1,4 @@
-package com.basic;
+package com.assignment;
 
 import java.util.Arrays;
 
@@ -10,6 +10,6 @@ public class MaxMinArray {
         int a[]={1,423,6,46,34,23,13,53,4000};
         
         Arrays.sort(a);
-        System.out.println("min-"+a[0]+" max-"+a[a.length-1]);
+        System.out.println("min :"+a[0]+" max :"+a[a.length-1]);
 	}
 }

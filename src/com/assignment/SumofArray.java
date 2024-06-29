@@ -1,4 +1,4 @@
-package com.basic;
+package com.assignment;
 /*
  *  WAP to sum values of an array.
  */

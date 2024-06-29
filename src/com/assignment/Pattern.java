@@ -1,4 +1,4 @@
-package com.basic;
+package com.assignment;
 
 /*
  *  W.A.J.P to Print pattern Given Below.
@@ -60,20 +60,22 @@ public class Pattern{
  		* * * * *
  		  * * *
  		    *
-// */
-//		int size = 3;
-//        for (int i = 0; i < size * 2 - 1; i++) {
-//            int spaces = Math.abs(size - 1 - i);
-//            int stars = size - spaces;
-//            
-//            for (int j = 0; j < spaces * 2; j++) {
-//                System.out.print(" ");
-//            }
-//            for (int j = 0; j < stars * 2 - 1; j++) {
-//                System.out.print("* ");
-//            }
-//            System.out.println("");
-//        }
+ */
+		int size = 3;
+        for (int i = 0; i < size * 2 - 1; i++) {
+            int spaces = Math.abs(size - 1 - i);
+            int stars = size - spaces;
+            
+            for (int j = 0; j < spaces * 2; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < stars * 2 - 1; j++) {
+                System.out.print("* ");
+            }
+            System.out.println("");
+        }
+        
+        
 		for (int i = 1; i <= 2*2-1; i++) {
 			for (int k = i; k <= 3*2-1; k++) {
 				System.out.print(" 	");

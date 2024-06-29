@@ -1,4 +1,4 @@
-package com.basic;
+package com.assignment;
 /*
  *  W.A.J.P for create Fibonacci Series.
  */
