@@ -7,11 +7,11 @@ public class IndexofArray {
 
 		int[] array= {1,2,3,4,5,6};
 	    Object t;
-		System.out.println("index position is :"+findindexOf(array, 6));
+		System.out.println("index position is :" +findindexOf(array, 3));
 	}
-
-	private static void findindexOf() {
-		return findindexOf(array, 6);
+	private static Object findindexOf(Object array, int i) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

@@ -2,7 +2,7 @@ package com.assignment;
 /*
  *  WAP to Compare Two String.
  */
-public class TwoNumberQe {
+public class CompareTwoString {
 	public static void main(String[] args) {
 		
 		String  s1="This is Student";
