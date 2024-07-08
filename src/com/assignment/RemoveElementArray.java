@@ -8,18 +8,20 @@ import java.util.List;
  */
 public class RemoveElementArray {
 	public static void main(String[] args) {
-		List<String> list_Strings = new ArrayList<String>();
-		  list_Strings.add("Red");
-		  list_Strings.add("Green");
-		  list_Strings.add("Orange");
-		  list_Strings.add("White");
-		  list_Strings.add("Black");
-
-		  System.out.println(list_Strings);
-
-		  list_Strings.remove(1);
-		   
-		  System.out.println(list_Strings);
+		ArrayList r1=new ArrayList();
+		
+		r1.add(1);
+		r1.add(2);
+		r1.add(3);
+		r1.add(4);
+		r1.add(5);
+		
+		System.out.println("Defualt value is :"+r1);
+		System.out.println("Default size is :"+r1.size());
+		
+		r1.remove(2);
+		
+		System.out.println("new value is :"+r1);
+		System.out.println("new size is :"+r1.size());
 	}
-
 }
