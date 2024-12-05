@@ -4,7 +4,7 @@ package com.assignment;
  */
 public class TryCatch {
 	public static void main(String[] args) {
-		int a=10,b=0;
+		int a=0,b=10;
 		
 		try {
 		System.out.println("Division is :"+a/b);

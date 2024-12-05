@@ -18,7 +18,7 @@ public class UpdateArrayEleent {
 
 		  System.out.println(list_Strings);
 
-		  list_Strings.set(4, "Yellow");
+		  list_Strings.set(0, "Yellow");
 		   
 		  System.out.println(list_Strings);
 	}
